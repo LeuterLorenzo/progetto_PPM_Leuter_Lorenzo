@@ -1296,7 +1296,7 @@ ul{
 }
 
 .coloumnLFT{
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1306,7 +1306,7 @@ ul{
 }
 
 .coloumnFLFT{
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -1426,14 +1426,29 @@ ul{
 .coloumnFLFT{
     width: 25%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     gap: 15px;
     height: 371px;
     margin-top: 15px;
 }
 
+.coloumnFLFT2{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
 .spaceFT{
     width: 20%;
-    display: none;
+}
+
+.allLF{
+    padding-bottom: 50px;
+}
+
+.tdc{
+    padding-bottom: 20px;
 }
