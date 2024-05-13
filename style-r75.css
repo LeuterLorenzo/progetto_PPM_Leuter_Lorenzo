@@ -1,0 +1,86 @@
+@media screen and (max-width: 1475px){
+    .coloumnFLFT{
+        width: 60%;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .coloumnLFTF{
+        width: 100%;
+    }
+
+    .coloumnLFT{
+        width: 25%;
+    }
+
+    .allLF{
+        gap: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1330px){
+    .PrincipalArgument{
+        flex-direction: column;
+    }
+
+    .txtFAP{
+        width: 100%;
+    }
+
+    .imgFAP{
+        max-width: 100%;
+    }
+
+    .updateIMGFAP{
+        padding-bottom: 10px;
+    }
+
+    .styleIMGFP{
+        max-width: 100%;
+    }
+
+    .SO{
+        width: 150px;
+        font-size: 14px;
+    }
+
+    .OA{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #OA2{
+        padding-top: 20px;
+    }
+
+    .DTIO{
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .SODTIO{
+        height: 25px;
+    }
+
+    .flDTIO{
+        width: 45%;
+    }
+
+    .aIMGDTIO{
+        width: 45%;
+    }
+
+    .classHDTIO{
+        font-size: 20px;
+    }
+
+    .TN{
+        width: 65%;
+    }
+
+    .textATN{
+        font-size: 16px;
+    }
+}
