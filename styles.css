@@ -619,6 +619,11 @@ ul{
     padding-bottom: 5%;
 }
 
+.imgADTIO{
+    width: 100%;
+    height: auto;
+}
+
 .txtDTIO{
     color: black;
     text-decoration: none;
@@ -896,6 +901,11 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.txtPA{
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .titleFPV{
     color: black;
     font-size: 28px;
@@ -1066,6 +1076,15 @@ ul{
     gap: 1%;
 }
 
+.fbOA0{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+    gap: 1%;
+    width: 100%;
+}
+
 .descriptionAO{
     width: 35%;
     display: flex;
@@ -1132,6 +1151,16 @@ ul{
     height: auto;
     width: 100%;
     gap: 1%;
+}
+
+.imgPV{
+    width: 100%;
+    height: 175px;
+    max-width: 250px;
+}
+
+.aimgPV{
+    width: 25%;
 }
 
 .alignC{
@@ -1362,6 +1391,10 @@ ul{
     padding-left: 1%;
 }
 
+.sTN2{
+    height: 100px;
+}
+
 .flexTND{
     display: flex;
     flex-direction: row;
@@ -1388,4 +1421,19 @@ ul{
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
+}
+
+.coloumnFLFT{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    height: 371px;
+    margin-top: 15px;
+}
+
+.spaceFT{
+    width: 20%;
+    display: none;
 }

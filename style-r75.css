@@ -92,7 +92,7 @@
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
     .menuText{
         font-size: 15px;
     }
@@ -100,6 +100,208 @@
     .logoH{
         font-size: 45px;
     }
+}
 
-    .textFL2
+
+@media screen and (max-width: 1080px){
+    .LH{
+        width: 30%;
+    }
+
+    .newsFP{
+        width: 42%;
+    }
+
+    .Related{
+        display: none;
+    }
+
+    .listR{
+        display: none;
+    }
+
+    .DTIO{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 45%;
+    }
+
+    .OA{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: auto;
+        gap: 7px;
+    }
+
+    .SODTIO{
+        width: 130px;
+        font-size: 13px;
+    }
+
+    .classHDTIO{
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .flDTIO{
+        width: 100%;
+    }
+    .aIMGDTIO{
+        width: 100%;
+    }
+
+    .specificalN{
+        flex-wrap: wrap;
+    }
+
+    .firstSN{
+        width: 48%;
+    }
+
+    .fbpairRPV{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        gap: 1%;
+        width: 35%;
+    }
+
+    .fbpairRPV{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1079px){
+    .alignC{
+        width: 60%;
+    }
+
+    .aimgPV{
+        width: 40%;
+    }
+
+    .imgPV{
+        max-width: 100%;
+    }
+
+    .orderCRPV{
+        width: 70%;
+    }
+
+    .SORPV{
+        width: 135px;
+        font-size: 13px;
+    }
+
+    .PV{
+        flex-direction: column;
+        width: 95%;
+        gap: 10%;
+        height: 875px;
+    }
+
+    .firstIPV{
+        width: 100%;
+    }
+
+    .txtPA{
+        display: block;
+    }
+    .fbpairRPV{
+        flex-direction: row;
+        width: 100%;
+        gap: 3%;
+        align-items: center;
+    }
+    .elementRPV{
+        width: 45%;
+        align-items: center;
+    }
+
+    .rightPV{
+        width: 100%;
+    }
+
+    .subPVFB{
+        width: 120px;
+        font-size: 12px;
+    }
+    .otherNC{
+        font-size: 16px;
+    }
+
+    .fbOA0{
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .otherPVFB{
+        width: 45%;
+    }
+
+    .descriptionAO{
+        width: 100%;
+    }
+
+    .coloumnOA{
+        width: 100%;
+    }
+
+    .otherArgumentO{
+        gap: 5%;
+    }
+
+    .TN2{
+        display: none;
+    }
+
+    .sTN2{
+        height: 30px;
+    }
+
+    .flex-title{
+        display:none;
+    }
+
+    .barraOpzioni{
+        display: none;
+    }
+
+    .textFL2{
+        display: none;
+    }
+
+    .textFL1{
+        display: none;
+    }
+
+    .coloumnFLFT{
+        width: 30%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .coloumnFLFT2{
+        width: 30%;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .allLF{
+        align-items: normal;
+        padding-bottom: 30px;
+    }
+
+    .coloumnLFT{
+        width: 100%;
+        height: auto;
+    }
+
+    .spaceFT{
+        width: 15%;
+        display: block;
+    }
 }
