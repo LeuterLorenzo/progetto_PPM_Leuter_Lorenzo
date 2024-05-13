@@ -84,3 +84,22 @@
         font-size: 16px;
     }
 }
+
+
+@media screen and (max-width: 1150px) {
+    .textFL2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .menuText{
+        font-size: 15px;
+    }
+
+    .logoH{
+        font-size: 45px;
+    }
+
+    .textFL2
+}

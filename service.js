@@ -82,9 +82,9 @@ searchIcon.addEventListener("click", () => {
 window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
     if(scrollPosition >63){
-        logo.style.color = "#005e87";
+        logo.style.display = "block";
     }else if(!fov2.classList.contains("open") && !fov2.classList.contains("open") && 0<=scrollPosition<=63){
-        logo.style.color = "white";
+        logo.style.display = "none";
     }
 });
 

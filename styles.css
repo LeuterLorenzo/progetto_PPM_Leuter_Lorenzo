@@ -349,6 +349,7 @@ body {
 .menuText{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: 1.2vw;
 }
 
 .textBHM{
@@ -359,20 +360,21 @@ body {
 }
 
 .logoH{
-    width: 34%;
-    color: white;
+    width: 100%;
+    color: #005e87;
     text-decoration:none;
     text-align: center;
     font-family: Impact,sans-serif;
-    font-size: 55px;
+    font-size: 3.865vw;
+    display: none;
 }
 
 .root.open .logoH{
-    color: #005e87;
+    display: block;
 }
 
 .logoH.open{
-    color: #005e87;
+    display: block;
 }
 
 /*CSS PER IL TITOLO CON LA DESCRIZIONE DEL TEMPO*/
