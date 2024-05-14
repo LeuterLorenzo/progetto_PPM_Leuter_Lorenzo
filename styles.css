@@ -297,6 +297,15 @@ body {
     cursor: pointer;
 }
 
+.saerchIconA{
+    cursor: pointer;
+    display: none;
+}
+
+.spaceFT2{
+    display: none;
+}
+
 .flOpenSB.open{
     margin-bottom: 20px;
     display: block;
@@ -349,7 +358,6 @@ body {
 .menuText{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 1.2vw;
 }
 
 .textBHM{
@@ -365,7 +373,7 @@ body {
     text-decoration:none;
     text-align: center;
     font-family: Impact,sans-serif;
-    font-size: 3.865vw;
+    font-size: 55px;
     display: none;
 }
 
@@ -561,6 +569,10 @@ ul{
     border-bottom: 3px solid #D84315;
 }
 
+.borderPS{
+    display: none;
+}
+
 .PromotionsSpecials{
     padding-top: 40px;
 }
@@ -672,6 +684,11 @@ ul{
     height: auto;
 }
 
+.lastB{
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 3%;
+}
+
 .boxTONW{
     color: #5d5b5a;
     font-weight: bold;
@@ -737,7 +754,7 @@ ul{
 /*IMMAGINE ACCANTO ALLA LISTA DELLE ALTRE NOTIZIE*/
 
 .imgFP{
-    width: 28%;
+    width: 95%;
     padding-top: 1.75%;
 }
 
@@ -753,6 +770,9 @@ ul{
     height:auto;
 }
 
+.spaceFPTN{
+    height: 600px;
+}
 
 /*TRENDING NOW*/
 
@@ -867,6 +887,10 @@ ul{
 .otherNC:hover{
     color: #007787;
     cursor: pointer;
+}
+
+.spaceSN{
+    height: 400px;
 }
 
 /* PHOTOS AND VIDEOS*/
@@ -1014,6 +1038,12 @@ ul{
     flex-wrap: wrap;
 }
 
+.imgPVS{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    padding-bottom: 10px;
+}
 
 .txtPVFB{
     color: black;
@@ -1032,7 +1062,7 @@ ul{
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
-    width: 20%;
+    width: 35%;
     text-decoration: none;
 }
 
@@ -1058,6 +1088,23 @@ ul{
 }
 
 /*OTHER ARGUMENTS*/
+
+.alignCRS{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    gap: 1%;
+}
+
+.alignCS{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 75%;
+}
 
 .otherArgument{
     display: flex;
@@ -1085,6 +1132,16 @@ ul{
     width: 100%;
 }
 
+.imgSOA0{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+.otherPVFBOA{
+    width: 45%;
+}
+
 .descriptionAO{
     width: 35%;
     display: flex;
@@ -1100,7 +1157,7 @@ ul{
     text-decoration: none;
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 23px;
     padding-bottom: 3%;
 }
 
@@ -1163,11 +1220,16 @@ ul{
     width: 25%;
 }
 
+.fbIMGFP{
+    width: 28%;
+}
+
 .alignC{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
+    width: 75%;
 }
 
 /*Gallery*/
@@ -1395,6 +1457,10 @@ ul{
     height: 100px;
 }
 
+.scrollIMG{
+    width: 700px;
+}
+
 .flexTND{
     display: flex;
     flex-direction: row;
@@ -1451,4 +1517,5 @@ ul{
 
 .tdc{
     padding-bottom: 20px;
+    width: 90%;
 }

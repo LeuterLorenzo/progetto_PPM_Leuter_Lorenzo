@@ -79,9 +79,12 @@ searchIcon.addEventListener("click", () => {
     }
 });
 
+console.log(document.documentElement.clientWidth);
+
 window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
-    if(scrollPosition >63){
+    const scrollPositionX = document.documentElement.clientWidth;
+    if(scrollPosition >63 || scrollPositionX <=1079){
         logo.style.display = "block";
     }else if(!fov2.classList.contains("open") && !fov2.classList.contains("open") && 0<=scrollPosition<=63){
         logo.style.display = "none";

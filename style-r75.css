@@ -112,14 +112,6 @@
         width: 42%;
     }
 
-    .Related{
-        display: none;
-    }
-
-    .listR{
-        display: none;
-    }
-
     .DTIO{
         display: flex;
         flex-direction: column;
@@ -175,7 +167,19 @@
 }
 
 @media screen and (max-width: 1079px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
     .alignC{
+        width: 60%;
+    }
+
+    .alignCS{
         width: 60%;
     }
 
@@ -305,5 +309,223 @@
     .spaceFT{
         width: 15%;
         display: block;
+    }
+
+    .tdc{
+        padding-bottom: 70px;
+    }
+
+    .logoH{
+        font-size: 4vw;
+    }
+
+    .menuText{
+        display: none;
+    }
+
+    .buttonHighMenu{
+        display: none;
+    }
+
+    .saerchIconA{
+        display: block;
+        margin-left: 15%;
+    }
+
+    .logoH{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 995px){
+    .pr{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+    .newsFB{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .newsFP{
+        width: 100%;
+    }
+
+    .PrincipalArgument{
+        flex-direction: row;
+    }
+
+    .txtFAP{
+        width: 50%;
+    }
+
+    .updateIMGFAP{
+        width: 50%;
+    }
+
+    .DTIO{
+        flex-direction: row;
+    }
+
+    .imgADTIO{
+        width: 70%;
+    }
+
+    .OA{
+        gap: 20px;
+    }
+
+    .pr{
+        display: block;
+    }
+
+    .DTIO{
+        gap: 1%;
+    }
+
+    .titlePS{
+        border-bottom: none;
+    }
+
+    .borderPS{
+        display: block;
+        border-bottom: 3px solid #D84315;
+    }
+
+    .boxONW{
+        padding-top: 15px;
+        width: 97%;
+    }
+
+    .LH{
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .lastB{
+        border-bottom: none;
+    }
+
+    .SUPEMAILB{
+        height: 150px;
+        width: 97%;
+    }
+
+    .TN{
+        width: 100%;
+    }
+
+    .fbIMGFP{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgFP{
+        width: 75%;
+    }
+
+    .spaceFPTN{
+        height: 200px;
+    }
+
+    .spaceSN{
+        height: 200px;
+    }
+
+    .alignCR{
+        flex-direction: column;
+    }
+
+    .imgFIPV{
+        padding-left: 2%;
+    }
+
+    .alignC{
+        width: 100%;
+    }
+
+    .buttonOOTHERPV{
+        margin-top: 50px;
+    }
+
+    .openPVFB.open{
+        padding-top: 50px;
+        padding-left: 2%;
+    }
+
+    .imgPVS{
+        max-width: 100%;
+    }
+
+    .aimgPV{
+        width: 85%;
+        padding-left: 3%;
+    }
+
+    .imgPV{
+        height: auto;
+    }
+
+    .alignCS{
+        width: 100%;
+    }
+
+    .otherArgumentO{
+        flex-direction: column;
+    }
+
+    .fbOA0{
+        width: 100%;
+    }
+
+    .imgOA0{
+        width: 100%;
+    }
+
+    .otherPVFBOA{
+        width: 100%;
+    }
+
+    .imgSOA0{
+        max-width: 590px;
+        padding-left: 3%;
+    }
+
+    .allLF{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .coloumnFLFT{
+        width: 50%;
+    }
+
+    .coloumnFLFT2{
+        width: 50%;
+    }
+
+    .tdc{
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .scrollIMG{
+        width: 450px;
     }
 }
