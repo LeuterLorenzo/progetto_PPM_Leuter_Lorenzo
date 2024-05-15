@@ -313,7 +313,6 @@ body {
 }
 
 .buttonIS{
-    width: 60px;
     background-color: #005e87;
     border-radius: 4px;
     text-align: center;
@@ -323,6 +322,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.buttonW{
+    max-width: 8%;
+    width: 100%;
 }
 
 .flOpenSB{

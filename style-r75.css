@@ -373,6 +373,10 @@
     .footerSpace{
         height: 60px;
     }
+
+    .seachbar{
+        width: 83%;
+    }
 }
 
 @media screen and (max-width: 995px){
@@ -568,6 +572,14 @@
 
     .alignCUP{
         padding-top: 10%;
+    }
+
+    .seachbar{
+        width: 75%;
+    }
+
+    .buttonW{
+        max-width: 13%;
     }
 }
 
