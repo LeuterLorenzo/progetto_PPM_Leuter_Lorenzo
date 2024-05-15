@@ -962,6 +962,16 @@ ul{
     width: 100%;
 }
 
+.elementRPV2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: auto;
+    gap: 2%;
+    width: 100%;
+    padding-top: 5%;
+}
+
 .orderCRPV{
     display: flex;
     flex-direction: column;
@@ -1519,3 +1529,10 @@ ul{
     padding-bottom: 20px;
     width: 90%;
 }
+
+.imgFIPV{
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+

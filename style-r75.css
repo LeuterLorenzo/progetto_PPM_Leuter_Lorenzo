@@ -223,6 +223,16 @@
     .elementRPV{
         width: 45%;
         align-items: center;
+        height: 100%;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .elementRPV2{
+        width: 45%;
+        align-items: center;
+        height: 100%;
+        border-bottom: 1px solid lightgray;
+        padding-top: 0;
     }
 
     .rightPV{
@@ -334,6 +344,11 @@
 
     .logoH{
         display: block;
+    }
+
+    .borderDSN{
+        width: 100%;
+        border-bottom: 1px solid lightgray;
     }
 }
 
@@ -527,5 +542,176 @@
 @media screen and (max-width: 780px){
     .scrollIMG{
         width: 450px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .PrincipalArgument{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .txtFAP{
+        width: 100%;
+    }
+
+    .updateIMGFAP{
+        width: 100%;
+    }
+
+    .textTFAP{
+        font-size: 1.9em;
+    }
+
+    .OA{
+        flex-direction: column;
+    }
+
+    .DTIO{
+        width: 100%;
+        gap: 4%;
+    }
+
+    .aIMGDTIO{
+        width: 33%;
+    }
+
+    .flDTIO{
+        width: 67%;
+    }
+
+    .imgADTIO{
+        width: 100%;
+    }
+
+    .classHDTIO{
+        font-size: 19px;
+    }
+
+    .LH{
+        padding-left: 40px;
+        width: 90%;
+    }
+
+    .imgFP{
+        width: 40%;
+    }
+
+    .flexTN{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flexTNT{
+        width: 97%;
+        padding-left: 3%;
+    }
+
+    .firstSN{
+        width: 100%;
+    }
+
+    .specificalN{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .fbOA0{
+        padding-left: 3%;
+        width: 97%;
+    }
+
+    .otherNC{
+        padding-top: 1%;
+    }
+
+    .fbpairRPV{
+        flex-direction: column;
+    }
+
+    .elementRPV{
+        padding-left: 3%;
+        width: 97%;
+    }
+
+    .elementRPV2{
+        padding-left: 3%;
+        width: 97%;
+    }
+
+    .PV{
+        height: 1100px;
+    }
+
+    .aimgPV{
+        width: 97%;
+    }
+
+    .imgPV{
+        height: 175%;
+        max-width: 97%;
+    }
+
+    .imgSOA0{
+        max-width: 94%;
+    }
+
+    .imgFIPV{
+        max-width: 97%;
+    }
+
+    .imgFAP{
+        max-width: 97%;
+    }
+
+    .firstSN{
+        padding-left: 3%;
+        width: 90%;
+    }
+
+    .alignCUP{
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+
+    .scrollIMG{
+        width: 350px;
+    }
+
+    .fbscrollIMG{
+        display: flex;
+        width: 83%;
+        justify-content: center;
+    }
+
+    .fbcscrollIMG{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .txtLFT{
+        display: none;
+    }
+
+    .coloumnFLFT{
+        height: auto;
+    }
+
+    #cLFT{
+        margin-top: 0;
+    }
+
+    .coloumnFLFT{
+        width: 100%;
+    }
+
+    .coloumnFLFT2{
+        width: 100%;
+    }
+
+    .tdc{
+        gap: 35px;
     }
 }
