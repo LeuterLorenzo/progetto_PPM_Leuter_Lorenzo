@@ -476,6 +476,10 @@ body {
     gap: 25px;
 }
 
+.spaceTitle{
+    height: 250px;
+}
+
 .textFL1{
     color: #007787;
     font-family: Arial, Helvetica, sans-serif;
@@ -1534,5 +1538,13 @@ ul{
     width: 100%;
     max-width: 700px;
     height: auto;
+}
+
+.spaceEND{
+    display: none;
+}
+
+.footerSpace{
+    height: 250px;
 }
 

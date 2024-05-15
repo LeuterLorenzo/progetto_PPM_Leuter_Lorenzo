@@ -188,7 +188,7 @@
     }
 
     .imgPV{
-        max-width: 100%;
+        max-width: 80%;
     }
 
     .orderCRPV{
@@ -321,10 +321,6 @@
         display: block;
     }
 
-    .tdc{
-        padding-bottom: 70px;
-    }
-
     .logoH{
         font-size: 4vw;
     }
@@ -350,6 +346,33 @@
         width: 100%;
         border-bottom: 1px solid lightgray;
     }
+
+    .spaceEND{
+        height: 90px;
+        width: 100%;
+        position: fixed;
+        background: #c3c3c3;
+        border-top: 1px solid #ccc;
+        bottom: 0px;
+        display: block;
+        z-index: 9999;
+    }
+
+    .tdc{
+        padding-bottom: 130px;
+    }
+
+    .spaceTitle{
+        height: 110px;
+    }
+
+    .spaceFPTN{
+        height: 250px;
+    }
+
+    .footerSpace{
+        height: 60px;
+    }
 }
 
 @media screen and (max-width: 995px){
@@ -371,6 +394,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
+        gap: 80px;
     }
 
     .newsFP{
@@ -536,6 +560,14 @@
     .tdc{
         flex-direction: column;
         height: auto;
+    }
+
+    .spaceTitle{
+        height: 20px;
+    }
+
+    .alignCUP{
+        padding-top: 10%;
     }
 }
 
