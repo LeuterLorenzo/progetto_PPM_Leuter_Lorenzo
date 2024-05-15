@@ -14,8 +14,10 @@ const logo = document.querySelector(".logoH"),
     fov = document.querySelector(".fov"),
     fov2 = document.querySelector(".fov2");
 
-const navBar = document.querySelector(".root"),
+const navBar = document.querySelector(".rootNB"),
+    navBar2 = document.querySelector(".rootNB2"),
     menu = document.querySelectorAll(".end"),
+    menu2 = document.querySelector(".saerchIconA")
     dropdown1 = document.querySelector(".sb1"),
     subO1 = document.querySelector(".subO1"),
     dropdown2 = document.querySelector(".sb2"),
@@ -42,6 +44,13 @@ menu.forEach(menu => {
         }
     });
 });
+
+menu2.addEventListener("click", () =>{
+    navBar2.classList.toggle("open");
+    if(document.querySelector(".fov2.open") === null){
+        fov.classList.toggle("open");
+    }
+})
 
 dropdown1.addEventListener("click",() => {
     subO1.classList.toggle("open");
