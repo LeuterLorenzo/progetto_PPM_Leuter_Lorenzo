@@ -252,10 +252,6 @@
         width: 45%;
     }
 
-    .otherPVFB{
-        width: 45%;
-    }
-
     .descriptionAO{
         width: 100%;
     }
@@ -392,6 +388,10 @@
 
     .logoH{
         font-size: 45px;
+    }
+
+    .otherPVFB{
+        width: 23%;
     }
 }
 
@@ -555,6 +555,10 @@
         width: 100%;
     }
 
+    .otherPVFB{
+        width: 45%;
+    }
+
     .otherPVFBOA{
         width: 100%;
     }
@@ -596,6 +600,11 @@
 
     .buttonW{
         max-width: 13%;
+    }
+
+    .subPVFB {
+        width: 175px;
+        font-size: 15px;
     }
 }
 
