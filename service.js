@@ -1,9 +1,9 @@
 var objToday = new Date(),
-    weekday = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'),
+    weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
     dayOfWeek = weekday[objToday.getDay()],
-    domEnder = function() { var a = objToday; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 == a ? "st" : 2 == a ? "nd" : 3 == a ? "rd" : "th" }(),
+    domEnder = function() { var a = objToday; if (/1/.test(parseInt((a + "").charAt(0)))) return "th"; a = parseInt((a + "").charAt(1)); return 1 === a ? "st" : 2 === a ? "nd" : 3 === a ? "rd" : "th" }(),
     dayOfMonth = today + ( objToday.getDate() < 10) ? '0' + objToday.getDate() + domEnder : objToday.getDate() + domEnder,
-    months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
+    months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     curMonth = months[objToday.getMonth()],
     curYear = objToday.getFullYear();
 var today = dayOfWeek + ", " + curMonth + " " + dayOfMonth + " " + curYear;
@@ -12,12 +12,13 @@ document.getElementById("textL").innerHTML = today;
 
 const logo = document.querySelector(".logoH"),
     fov = document.querySelector(".fov"),
-    fov2 = document.querySelector(".fov2");
+    fov2 = document.querySelector(".fov2"),
+    titleU = document.querySelectorAll(".upTitle");
 
 const navBar = document.querySelector(".rootNB"),
     navBar2 = document.querySelector(".rootNB2"),
     menu = document.querySelectorAll(".end"),
-    menu2 = document.querySelector(".saerchIconA")
+    menu2 = document.querySelector(".saerchIconA"),
     dropdown1 = document.querySelector(".sb1"),
     subO1 = document.querySelector(".subO1"),
     dropdown2 = document.querySelector(".sb2"),
@@ -39,6 +40,7 @@ const navBar = document.querySelector(".rootNB"),
 menu.forEach(menu => {
     menu.addEventListener("click", () => {
         navBar.classList.toggle("open");
+        logo.style.display = "block";
         if(document.querySelector(".fov2.open") === null){
             fov.classList.toggle("open");
         }
@@ -47,6 +49,7 @@ menu.forEach(menu => {
 
 menu2.addEventListener("click", () =>{
     navBar2.classList.toggle("open");
+    logo.style.display = "block";
     if(document.querySelector(".fov2.open") === null){
         fov.classList.toggle("open");
     }
@@ -82,21 +85,25 @@ dropdown7.addEventListener("click",() => {
 
 searchIcon.addEventListener("click", () => {
     search.classList.toggle("open");
-    logo.classList.toggle("open");
+    logo.style.display = "block";
     if(document.querySelector(".fov.open") === null){
         fov2.classList.toggle("open");
     }
 });
-
-console.log(document.documentElement.clientWidth);
 
 window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
     const scrollPositionX = document.documentElement.clientWidth;
     if(scrollPosition >63 || scrollPositionX <=1079){
         logo.style.display = "block";
+        titleU.forEach(titleU => {
+            titleU.style.boxShadow = "0 1px 8px 0 rgba(0,0,0,0.35)";
+        });
     }else if(!fov2.classList.contains("open") && !fov2.classList.contains("open") && 0<=scrollPosition<=63){
         logo.style.display = "none";
+        titleU.forEach(titleU => {
+            titleU.style.boxShadow = "0 0 0 0 white";
+        });
     }
 });
 

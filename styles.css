@@ -120,7 +120,7 @@ body {
 }
 
 .textOpzHP{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     text-decoration:none;
     color: black;
@@ -138,14 +138,14 @@ body {
 }
 
 .textOpzSB{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     text-decoration:none;
     color: black;
 }
 
 .textOpzSBS{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     text-decoration:none;
     color: black;
@@ -292,7 +292,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     padding-left: 2%;
     border-top: 1px solid darkgray;
     border-bottom: 1px solid darkgray;
@@ -396,12 +396,12 @@ body {
 }
 
 .menuText{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .textBHM{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     color: white;
     text-decoration:none;
@@ -454,13 +454,13 @@ body {
 
 #textL{
     height: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
 }
 
 .editionE{
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     text-decoration:none;
     color: black;
 }
@@ -494,7 +494,7 @@ body {
 }
 
 .textOpz{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     text-decoration:none;
     color: black;
@@ -522,7 +522,7 @@ body {
 
 .textFL1{
     color: #007787;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 5px;
 }
@@ -551,6 +551,18 @@ body {
     width: 55%;
 }
 
+.blogoH{
+    width: 34%;
+}
+
+.spaceTR{
+    width: 19.3%;
+}
+
+.spaceTL{
+    width: 10%;
+}
+
 /*CSS PER GLI ELEMENTI RIGUARDANTI LA NOTIZIA IN PRIMA VISTA*/
 
 .PrincipalArgument{
@@ -577,7 +589,7 @@ body {
 .TitleArticle{
     color: black;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -683,7 +695,7 @@ ul{
 .txtDTIO{
     color: black;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     cursor: pointer;
 }
@@ -702,7 +714,7 @@ ul{
     width: 200px;
     height: 25%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 /*Latest Headlines*/
@@ -738,7 +750,7 @@ ul{
     font-weight: bold;
     text-decoration: none;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .boxTONW:hover{
@@ -754,7 +766,7 @@ ul{
     width: 200px;
     height: 25%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .SUPEMAILB{
@@ -769,7 +781,7 @@ ul{
 }
 
 .txtSUP{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     color: black;
     font-weight: bold;
     font-size: 18px;
@@ -855,7 +867,7 @@ ul{
 }
 
 .textATN{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     color: black;
     font-weight: bold;
     width: 100%;
@@ -905,7 +917,7 @@ ul{
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .titleSN:hover{
@@ -915,14 +927,14 @@ ul{
 
 .descriptionSN{
     color: #1f1e1e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 17px;
     text-align: left;
 }
 
 .otherNC{
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 17px;
     cursor: pointer;
     font-weight: bold;
@@ -966,12 +978,12 @@ ul{
     width: 200px;
     height: 4%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .txtPA{
     display: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .titleFPV{
@@ -979,7 +991,7 @@ ul{
     font-size: 28px;
     text-decoration: none;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
 }
 
@@ -1033,7 +1045,7 @@ ul{
     width: 200px;
     justify-content: center;
     height: 30%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -1045,7 +1057,7 @@ ul{
     padding-bottom: 2%;
     text-decoration: none;
     border-top: 1px solid lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     text-align: center;
     cursor: pointer;
     border-bottom: 1px solid lightgray;
@@ -1102,7 +1114,7 @@ ul{
 .txtPVFB{
     color: black;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
 }
 
@@ -1129,7 +1141,7 @@ ul{
     width:155px;
     height: 25%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 14px;
 }
 
@@ -1210,7 +1222,7 @@ ul{
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 23px;
     padding-bottom: 3%;
 }
@@ -1232,7 +1244,7 @@ ul{
 .txtCOA{
     color: black;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
     text-decoration: none;
     width: 80%;
@@ -1252,7 +1264,7 @@ ul{
     width: 200px;
     height: 50%;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
 }
 
 .alignCR{
@@ -1348,14 +1360,14 @@ ul{
     font-weight: bold;
     font-size: 13px;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
 }
 
 .descG{
     font-size: 14px;
     color: gray;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
 }
 
@@ -1370,7 +1382,8 @@ ul{
 /* FOOTER */
 
 .footer{
-    background-color: #dfdfdf;
+    background-color: #f5f5f5;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.35) inset;
 }
 
 .titleFTRFL{
@@ -1433,7 +1446,7 @@ ul{
 
 .titleLFT{
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -1445,7 +1458,7 @@ ul{
 }
 
 .txtLFT{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
     text-decoration: none;
     color: black;
@@ -1473,7 +1486,7 @@ ul{
 }
 
 .textBLF{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-weight: bold;
     color: white;
     text-decoration:none;
@@ -1495,7 +1508,7 @@ ul{
 .txtTDC{
     color: gray;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     cursor: pointer;
 }
 
