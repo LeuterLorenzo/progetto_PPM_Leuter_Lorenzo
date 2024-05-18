@@ -1193,9 +1193,13 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    height: auto;
+    height: fit-content;
     gap: 1%;
     width: 100%;
+}
+
+.finalBorder{
+    display: none;
 }
 
 .imgSOA0{
@@ -1543,7 +1547,7 @@ ul{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 48px;
+    height: auto;
     gap: 3%;
     text-decoration: none;
     width: 50%;
