@@ -256,17 +256,12 @@
         width: 100%;
     }
 
-    .coloumnOA{
+    .coloumnOA {
         width: 100%;
+    }
+
+    .txtCOAS{
         padding-top: 15px;
-    }
-
-    .txtCOA{
-        padding-top: 10px;
-    }
-
-    .spaceSB{
-        padding-top: 7px;
     }
 
     .otherArgumentO{
@@ -617,22 +612,24 @@
         font-size: 15px;
     }
 
-    .coloumnOA{
-        padding-top: 0;
-    }
-
-    .txtCOA{
-        padding-top: 0;
-    }
-
-    .spaceSB{
-        padding-top: 0;
-        height: 50%;
-    }
-
     .subCOA{
         height: 100%;
     }
+
+
+    .otherArgumentO{
+        gap: 0;
+    }
+
+    .fbOA0{
+        gap: 0;
+        padding-top: 10px;
+    }
+
+    .coloumnOA{
+        gap: 0;
+    }
+
 }
 
 @media screen and (max-width: 780px){
