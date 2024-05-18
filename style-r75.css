@@ -699,7 +699,7 @@
     }
 
     .LH{
-        padding-left: 40px;
+        padding-left: 30px;
         width: 90%;
     }
 
@@ -714,7 +714,8 @@
 
     .flexTNT{
         width: 97%;
-        padding-left: 3%;
+        padding-left: 2%;
+        padding-top: 20px;
     }
 
     .firstSN{
