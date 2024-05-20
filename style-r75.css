@@ -487,7 +487,7 @@
     }
 
     .TN{
-        width: 100%;
+        width: 97%;
     }
 
     .fbIMGFP{
@@ -519,7 +519,7 @@
     }
 
     .alignC{
-        width: 100%;
+        width: 95%;
     }
 
     .buttonOOTHERPV{
@@ -630,6 +630,10 @@
         gap: 0;
     }
 
+    .otherArgument{
+        width: 97%;
+    }
+
 }
 
 @media screen and (max-width: 780px){
@@ -662,7 +666,11 @@
     }
 
     .txtFAP{
-        width: 100%;
+        width: 97%;
+    }
+
+    .PromotionsSpecials{
+        width: 96%;
     }
 
     .updateIMGFAP{
@@ -836,5 +844,19 @@
 
     .textATN{
         font-size: 15px;
+    }
+
+    .alignCR{
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .sidebar{
+        left: -250%;
+    }
+
+    .sidebar2{
+        right: -250%;
     }
 }
